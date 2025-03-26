@@ -119,6 +119,7 @@ int main(int argc, char **argv) {
 	DataManager::SetDefaultValues();
 	printf("Starting the UI...\n");
 	gui_init();
+	gui_init();
 	printf("=> Linking mtab\n");
 	symlink("/proc/mounts", "/etc/mtab");
 	std::string fstab_filename = "/etc/twrp.fstab";
